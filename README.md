@@ -6,5 +6,6 @@ INSTALACIÓN
 5- Activar el entorno virtual con .\venv\Scripts\activate desde la terminal de Visual Studio code.
 6- Instalar las dependencias con pip install -r requirements.txt.
 7- Crear la base de datos, actualizar nombre y credenciales en archivo /config/database.py  
-8- Ingresar a http://127.0.0.1:8000/docs y dar de alta un usuario.
-9- Ingresar a http://127.0.0.1:8000/ para ingresar al sitio.
+8- Correr uvicorn main:app --reload
+9- Ingresar a http://127.0.0.1:8000/docs y dar de alta un usuario.
+10- Ingresar a http://127.0.0.1:8000/ para ingresar al sitio.
